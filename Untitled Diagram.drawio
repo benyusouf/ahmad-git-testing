@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.6">
+  <diagram name="Page-1" id="gBPdlTA-RedjHdTDqfOj">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Integration Service" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry width="783" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Third-party API Integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="33" y="43" width="208" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="External System Integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="291" y="43" width="214" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Legacy System Integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="555" y="43" width="203" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="2" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="2" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Notification Service" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="833" width="609" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Real-time Alerts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8">
+          <mxGeometry x="33" y="43" width="132" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Event Notifications" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8">
+          <mxGeometry x="215" y="43" width="151" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Scheduled Reminders" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8">
+          <mxGeometry x="416" y="43" width="168" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-5.31;exitY=0.49;entryX=-5.52;entryY=0.49;" edge="1" parent="8" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-4.52;exitY=0.49;entryX=-4.96;entryY=0.49;" edge="1" parent="8" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Authentication Service" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1492" width="673" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="User Authentication" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="14">
+          <mxGeometry x="33" y="43" width="158" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Role-based Access Control" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="14">
+          <mxGeometry x="241" y="43" width="203" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Token Management" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="14">
+          <mxGeometry x="494" y="43" width="154" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-8.44;exitY=0.49;entryX=-7.35;entryY=0.49;" edge="1" parent="14" source="15" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-6.35;exitY=0.49;entryX=-9.69;entryY=0.49;" edge="1" parent="14" source="16" target="17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Reporting Service" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2215" width="536" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Real-time Dashboards" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="20">
+          <mxGeometry x="33" y="43" width="171" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Custom Reports" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="20">
+          <mxGeometry x="254" y="43" width="127" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Analytics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="20">
+          <mxGeometry x="431" y="43" width="80" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-11.95;exitY=0.49;entryX=-17.44;entryY=0.49;" edge="1" parent="20" source="21" target="22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-16.44;exitY=0.49;entryX=-27.69;entryY=0.49;" edge="1" parent="20" source="22" target="23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Data Processing Service" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2801" width="553" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Data Validation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="26">
+          <mxGeometry x="33" y="43" width="125" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Data Transformation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="26">
+          <mxGeometry x="208" y="43" width="163" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Data Storage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="26">
+          <mxGeometry x="421" y="43" width="107" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-21.4;exitY=0.49;entryX=-17.18;entryY=0.49;" edge="1" parent="26" source="27" target="28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-16.18;exitY=0.49;entryX=-26.18;entryY=0.49;" edge="1" parent="26" source="28" target="29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="Feedback Collection Service" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="3404" width="687" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="Feedback Form Creation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="32">
+          <mxGeometry x="33" y="43" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="Feedback Submission" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="32">
+          <mxGeometry x="273" y="43" width="166" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="Feedback Aggregation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="32">
+          <mxGeometry x="489" y="43" width="173" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-16.91;exitY=0.49;entryX=-20.5;entryY=0.49;" edge="1" parent="32" source="33" target="34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-19.5;exitY=0.49;entryX=-19.67;entryY=0.49;" edge="1" parent="32" source="34" target="35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="Input Devices Service" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="4141" width="624" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="Device Management" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="38">
+          <mxGeometry x="33" y="43" width="158" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="Device Configuration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="38">
+          <mxGeometry x="241" y="43" width="164" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="Device Monitoring" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="38">
+          <mxGeometry x="456" y="43" width="143" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-25.21;exitY=0.49;entryX=-25.25;entryY=0.49;" edge="1" parent="38" source="39" target="40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=-24.25;exitY=0.49;entryX=-28.96;entryY=0.49;" edge="1" parent="38" source="40" target="41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44" value="Classroom Feedback Software" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4815" y="39" width="229" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="Microservices Approach" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4838" y="162" width="183" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="Scalable System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4589" y="245" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="Flexible System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4768" y="245" width="127" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="Maintainable System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4945" y="245" width="162" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="44" target="45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0;exitY=0.89;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="45" target="46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4653" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.28;exitY=0.98;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="45" target="47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4832" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.71;exitY=0.98;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="45" target="48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5026" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
